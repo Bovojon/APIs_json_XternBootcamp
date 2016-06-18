@@ -1,10 +1,4 @@
-var people = [
-	{
-		firstName: 'Tony',
-		lastName: 'Stark',
-		secret: 'He is an Avenger'
-	}
-];
+var people = [];
 
 $('#menuToggle').on('click', function(){ // jquery select div
 	$('nav ul').toggle(400); // jquery select element
@@ -43,8 +37,8 @@ function listPeople(){
 		item.html(item.html().replace('{{ person.firstName }}', person.firstName)
 			.replace('{{ person.lastName }}', person.lastName)
         	.replace('{{ person.secret }}', person.secret));
+		item.removeClass('hide');
     	$('#people').append(item);
-    	item.removeClass('hidden');
     	$('#people').slideDown();			
 	});
 }

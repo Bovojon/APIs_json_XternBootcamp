@@ -1,5 +1,7 @@
 loadResults({
-  "firstName": "Han",
+  "firstName": "Han", 
   "lastName": "Solo",
   "secret": "He's a scoundrel."
 });
+
+//Use double quotes for JSON properties!! 
