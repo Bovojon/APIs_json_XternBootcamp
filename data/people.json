@@ -1,5 +1,5 @@
 loadResults({
-  "people": [ // Make array called people and use double quotes because this is JSON!!!
+  "people": [
     {
       "firstName": "Davey",
       "lastName": "Strus",
